@@ -1,0 +1,50 @@
+.display-container {
+  height: 75vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.display-info-box {
+  width: 800px;
+  height: 625px;
+}
+
+.picAndName {
+  height: 300px;
+  width: 100%;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 50px 50px 0 0;
+}
+
+.info {
+  height: 325px;
+  width: 100%;
+  background-color: aqua;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-radius: 0 0 50px 50px;
+}
+
+.move-right {
+  padding-left: 10px;
+  font-weight: 400;
+}
+
+.category {
+  font-weight: 900;
+}
+
+.pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
